@@ -7,10 +7,10 @@ spring:
     host: 192.168.246.128
 aliyun:
   sms:
-    accessKeyId: xxxx
-    accessKeySecret: yyyy
-    template_code: SMS_162730592
-    sign_name: 智慧工地
+    accessKeyId: 11
+    accessKeySecret: 22
+    template_code: 33
+    sign_name: 44
 eureka:
   client:
     service-url:
