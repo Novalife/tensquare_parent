@@ -112,6 +112,17 @@ public class UserController {
         userService.update(user);
         return new Result(true, StatusCode.OK, "修改成功");
     }
+    
+    /**
+     * 批量修改
+     *
+     * @param user
+     */
+    @RequestMapping(method = RequestMethod.PUT)
+    public Result update(@RequestBody List userList) {
+        userService.batchUpdate(userList);
+        return new Result(true, StatusCode.OK, "修改成功");
+    }
 
     /**
      * 删除
