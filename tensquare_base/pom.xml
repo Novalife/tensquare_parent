@@ -57,7 +57,7 @@
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-                <version>0.4.13</version>
+                <version>1.2.2</version>
                 <configuration>
                     <imageName>192.168.246.128:5000/${project.artifactId}:${project.version}</imageName>
                     <baseImage>jdk8</baseImage>
